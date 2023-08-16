@@ -10,6 +10,9 @@ code --version
 echo "Git Version:"
 git --version
 
+echo "GitHub CLI Version:"
+gh --version
+
 echo "Homebrew Version:"
 brew --version
 
@@ -19,9 +22,8 @@ conda --version
 echo "Docker Version:"
 docker --version
 
-echo "Node.js Version:"
-node --version
+echo "PATH:"
+echo $PATH
 
-echo "npm Version:"
-npm --version
-
+echo "Git Status:"
+git status
