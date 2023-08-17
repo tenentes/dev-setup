@@ -1,8 +1,7 @@
 #!/bin/bash
 
-echo "Python Version:"
-python --version
-python3 --version
+echo "Homebrew Version:"
+brew --version
 
 echo "Visual Studio Code Version:"
 code --version
@@ -13,8 +12,12 @@ git --version
 echo "GitHub CLI Version:"
 gh --version
 
-echo "Homebrew Version:"
-brew --version
+echo "Python Version:"
+python --version
+python3 --version
+
+echo "Django Version:"
+python -m django --version
 
 echo "Anaconda Version:"
 conda --version
